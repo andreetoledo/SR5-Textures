@@ -1,5 +1,5 @@
 #Andree Toledo 18439    
-#Lab 4
+#Lab 5
 
 import struct
 from obj import Obj
@@ -13,6 +13,12 @@ def char(myChar):
 def word(myChar):
 	return struct.pack('=h', myChar)
 	
+
+
+
+
+
+
 def dword(myChar):
 	return struct.pack('=l', myChar)
 def normalizeColorArray(colors_array):

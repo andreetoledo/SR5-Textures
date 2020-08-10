@@ -1,5 +1,5 @@
 #Andree Toledo 18439    
-#Lab 4
+#Lab 5
 
 from gl import Render
 from gl import color
@@ -7,6 +7,6 @@ from gl import color
 
 render = Render()
 
-render.load('cuerpo.obj', translate=(550, 50, 0), scale = (36, 36, 100))
+render.load('cuerpo.obj', translate=(550, 100, 0), scale = (75, 75, 400))
 
 render.glFinish(filename='output.bmp')
